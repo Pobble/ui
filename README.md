@@ -1,14 +1,27 @@
 # Pobble's ui
+
 Pobble's basic styles shared accross our platforms
 
----
+### Prerequisites
 
-## How to install
-``npm install Pobble/ui``
+Styles will require the following technologies:
 
----
+```
+Sass
+```
 
-## Todo
+### Installing
+
+You can install the styles via `npm`
+
+```
+npm install Pobble/ui
+```
+
+### Todo
+
+This is a work in progress. Bunch of stuff needs to be done, as :
+
 **General**
 - [ ] Colors: update variables definition structure
 
