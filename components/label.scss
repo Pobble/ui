@@ -1,0 +1,21 @@
+/*
+  <span class="label label-success">Hello</span>
+*/
+
+.label {
+  padding: 1px 2px;
+  font-size: 10px;
+  border-radius: 4px;
+}
+
+.label-success {
+  background-color: $limegreen-color;
+}
+
+.label-warning {
+  background-color: $orange-color;
+}
+
+.label-danger {
+  background-color: $red-color;
+}
