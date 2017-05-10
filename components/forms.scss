@@ -6,7 +6,7 @@ input,
 textarea,
 .form-control {
   font-family: $regularfont, Helvetica, Arial, sans-serif;
-  border: 1px solid #ececec;
+  border: 1px solid $clear-grey-color;
   color: $light-grey-color;
   padding: 10px;
   border-radius: 4px;
@@ -22,7 +22,7 @@ textarea,
     &, &:hover {
       color: #afafaf;
       background-color:#f9f9f9;
-      border-color: #ececec;
+      border-color: $clear-grey-color;
       box-shadow: none;
       cursor: not-allowed;
     }
