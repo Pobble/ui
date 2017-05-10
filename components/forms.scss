@@ -1,0 +1,73 @@
+.flat-label {
+  cursor: pointer;
+}
+
+input,
+textarea,
+.form-control {
+  font-family: $regularfont, Helvetica, Arial, sans-serif;
+  border: 1px solid #ececec;
+  color: $light-grey-color;
+  padding: 10px;
+  border-radius: 4px;
+  transition: all 300ms ease-in-out;
+  font-size: 14px;
+  &:focus,
+  &:hover {
+    border-color: $lightblue-color;
+    color: $mid-grey-color;
+    outline: none;
+  }
+  &:disabled, &.disabled {
+    &, &:hover {
+      color: #afafaf;
+      background-color:#f9f9f9;
+      border-color: #ececec;
+      box-shadow: none;
+      cursor: not-allowed;
+    }
+  }
+}
+input[type=text],
+input[type=password] {
+  height: 40px;
+}
+input {
+  border: 1px solid #cccccc;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: $lightblue-color;
+}
+
+textarea {
+  resize: none;
+}
+
+
+.form-control {
+  width: 100%;
+}
+.form-group {
+  margin-bottom: 15px;
+  label {
+    display: inline-block;
+    margin-bottom: 5px;
+  }
+}
+.form-group.required label {
+  position: relative;
+  width: 100%;
+  &:after {
+    content: "*";
+    color: $red-color;
+    position: absolute;
+    right: 0;
+  }
+}
+
+.has-feedback label ~ .form-control-feedback {
+  top: 32px;
+}
