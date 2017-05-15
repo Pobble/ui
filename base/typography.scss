@@ -1,1 +1,9 @@
-$regularfont: "proxima-nova-alt";
+$font-proximanova: "proxima-nova-alt";
+
+html {
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font: normal 14px/17px $font-proximanova, Helvetica, Arial, sans-serif;
+}
