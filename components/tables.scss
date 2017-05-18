@@ -1,0 +1,12 @@
+.table {
+  width: 100%;
+  th, td {
+    border-bottom: 1px solid $clear-grey-color;
+    padding: 10px 0;
+  }
+  th {
+    font-size: 16px;
+    text-align: left;
+    font-weight: normal;
+  }
+}
